@@ -1,0 +1,90 @@
+[2023-12-31 13:10:59]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:12:10]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:12:34]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:12:53]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:12:56]
+{"message":"hai","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:13:00]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:14:34]
+{"message":"gambar","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:15:28]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:16:26]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:16:28]
+{"message":"","bufferImage":null,"from":"6281555361622-1518354046","participant":"628176331874@c.us"}
+
+[2023-12-31 13:17:24]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:17:46]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:19:14]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:21:42]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:22:32]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:22:50]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:23:19]
+{"message":"button image","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:23:27]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:24:59]
+{"message":"template button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:26:14]
+{"message":"template button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:28:57]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:31:25]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:31:40]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:32:20]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:33:23]
+{"message":"lilst","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:34:42]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:36:37]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:37:15]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:37:31]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2023-12-31 13:37:48]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+

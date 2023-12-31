@@ -1,7 +1,7 @@
 <?php
 
 // all method is for example only, you can modify it as you want.
-// quoted is optional, default is false,, quoted = reply to specific message
+// if you want simple without manual format,you can use class ResponWebhookFormater.php
 class FormatMessage
 {
     public static function text($text, $quoted = false)
@@ -51,8 +51,9 @@ class FormatMessage
         ];
         $message = [
             'text' => 'text',
-            'footer' => 'footer',
+            'footer' => 'footer', 
             'headerType' => 1,
+            'viewOnce' => true, 
             'buttons' => $buttons,
             'quoted' => $quoted,
         ];
@@ -133,6 +134,7 @@ class FormatMessage
             'text' => 'text',
             'footer' => 'footer',
             'title' => 'name of list',
+            'viewOnce' => true,
             'buttonText' => 'button of list',
             'sections' => [$section, $section2],
         ];
