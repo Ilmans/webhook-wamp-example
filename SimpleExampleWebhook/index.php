@@ -83,6 +83,12 @@ if ($message == 'list') {
         ->responAsList();
 }
 
+// PDF
+if ($message == 'DOCUMENT') {
+    $respon = $responFormatter->line('DOCUMENT RESPON')
+        ->responAsDocument('url/to/yourdocument', 'document.extension', 'extension (pdf,doc,docx,xls,xlsx,ppt,pptx,zipped)');
+}
+
 // save respon to file
 if ($respon) {
     file_put_contents('respon.txt', '[' . date('Y-m-d H:i:s') . "]\n" . $respon . "\n\n", FILE_APPEND);

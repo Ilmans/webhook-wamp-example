@@ -13,3 +13,6 @@
 [2023-12-31 13:37:48]
 {"footer":"ini footer","title":"List","viewOnce":true,"buttonText":"Show List","sections":[{"title":"Menu pertama","rows":[{"title":"List Item 1","rowId":"id2","description":""},{"title":"List Item 2","rowId":"id3","description":""}]},{"title":"Menu kedua","rows":[{"title":"List Item 1","rowId":"id2","description":""},{"title":"List Item 2","rowId":"id3","description":""}]}],"image":{"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/6b\/WhatsApp.svg\/512px-WhatsApp.svg.png"},"caption":"ini isi pesannya\n*tebal*\n"}
 
+[2024-01-24 03:56:22]
+{"text":"hi juga\nada yang bisa dibantu?\n","quoted":true}
+

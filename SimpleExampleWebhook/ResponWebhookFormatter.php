@@ -205,4 +205,53 @@ class ResponWebhookFormater
 
         return json_encode($listMessage);
     }
+
+
+    /**
+     * Apply response as audio
+     * @param string $url
+     * @param bool $ptt
+     * @return string
+     */
+    public function responAsAudio($url = '', $ptt = true)
+    {
+        $message = [
+            'audio' => ['url' => $url],
+            'ptt' => $ptt,
+            'mimetype' => 'audio/mpeg',
+            'caption' => $this->convertLines(),
+        ];
+        return json_encode($message);
+    }
+
+    /**
+     * Apply response as document
+     * @param string $url
+     * @param string $filename
+     * @param string $type
+     * @return string
+     */
+    public function responAsDocument($url = '', $filename = '', $type = 'pdf')
+    {
+        $mimetypes = [
+            'pdf' => 'application/pdf',
+            'xls' => 'application/excel',
+            'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            'doc' => 'application/msword',
+            'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+            'zip' => 'application/zip',
+            'mp3' => 'application/mp3',
+        ];
+
+        $mimetype = $mimetypes[$type] ?? 'application/pdf';
+        $filename = $filename . '.' . $type;
+
+        $message = [
+            'document' => ['url' => $url],
+            'mimetype' => $mimetype,
+            'fileName' => $filename,
+            'caption' => $this->convertLines(),
+        ];
+        return json_encode($message);
+    }
 }
