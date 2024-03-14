@@ -4,5 +4,5 @@ this is webhook example code for made a bot chat integrated with whatsapp gatewq
 
 FREE webhook :
 
-- PPDB Sekolah : [text](https://github.com/Ilmans/botchat-ppdb)
-- AI Bot & stiker : [text](https://github.com/Ilmans/bot-ai)
+- PPDB Sekolah : [https://github.com/Ilmans/botchat-ppdb](https://github.com/Ilmans/botchat-ppdb)
+- AI Bot & stiker : [https://github.com/Ilmans/bot-ai](https://github.com/Ilmans/bot-ai)
