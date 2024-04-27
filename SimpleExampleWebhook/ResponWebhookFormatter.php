@@ -201,7 +201,7 @@ class ResponWebhookFormater
             'text' => $this->convertLines(),
             'footer' => $this->footer,
             'title' => $title,
-            'viewOnce' => true,
+
             'buttonText' => $nameButton,
             'sections' => $this->sectionsList,
         ];

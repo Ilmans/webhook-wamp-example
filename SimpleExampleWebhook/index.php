@@ -37,7 +37,7 @@ if ($message == 'media') {
     $respon = $responFormatter->line('caption for you {name}')->responAsMedia('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png');
 }
 
-if($message = 'media2') {
+if($message == 'media2') {
     $respon = $responFormatter->line('This is a document for you {name}')
         ->responAsMedia('https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'document', 'dummy.pdf');
 }

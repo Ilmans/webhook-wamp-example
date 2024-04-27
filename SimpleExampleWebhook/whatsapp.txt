@@ -16,3 +16,90 @@
 [2024-04-27 03:38:20]
 {"message":"media2","bufferImage":null,"from":"6282298859671"}
 
+[2024-04-27 03:42:25]
+{"message":"sdfas","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:42:25]
+{"message":"adfs","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:48:32]
+{"message":"iyaa bosquhh","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 03:50:11]
+{"message":"apa ini mas","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 03:58:01]
+{"message":"ho","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:58:29]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:58:37]
+{"message":"ha","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 04:10:42]
+{"message":"","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:10:48]
+{"message":"masukin maaf","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:10:58]
+{"message":"masukin grup","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:11:13]
+{"message":"yang adminya","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:11:21]
+{"message":"semua gruf","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:11:27]
+{"message":"maaf","bufferImage":null,"from":"120363196717306625","participant":"6285885361262@c.us"}
+
+[2024-04-27 04:13:17]
+{"message":"udah mas","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 04:13:49]
+{"message":"list","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 04:14:04]
+{"message":"ga muncull","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 04:14:17]
+{"message":"","bufferImage":null,"from":"6283115746281"}
+
+[2024-04-27 04:14:33]
+{"message":"pesennya ghaib kaga muncul wkwkw","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 04:15:00]
+{"message":"","bufferImage":null,"from":"6283115746281"}
+
+[2024-04-27 04:15:37]
+{"message":"update biar tambah ramee","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 04:16:01]
+{"message":"ane promosi ppob sepi lebih rame wa","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 05:51:32]
+{"message":"","bufferImage":null,"from":"120363196717306625","participant":"62881023813861@c.us"}
+
+[2024-04-27 05:51:39]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 05:53:47]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 05:55:18]
+{"message":"asdf","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 05:56:32]
+{"message":"asf","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 06:02:11]
+{"message":"list","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 06:03:03]
+{"message":"list item 2","bufferImage":null,"from":"6285770313479"}
+
+[2024-04-27 06:14:11]
+{"message":"muncul bosquh","bufferImage":null,"from":"6285770313479"}
+
