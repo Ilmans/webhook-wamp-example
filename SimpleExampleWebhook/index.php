@@ -26,15 +26,20 @@ $responFormatter = new ResponWebhookFormater();
 
 // respon text
 if ($message == 'halo') {
-    $respon = $responFormatter->line('halo juga')->line('ada yang bisa dibantu?')->responAsText();
+    $respon = $responFormatter->line('halo juga {name}')->line('ada yang bisa dibantu?')->responAsText();
 }
 // respon text with quoted
 if ($message == 'hi') {
     $respon = $responFormatter->quoted()->line('hi juga')->line('ada yang bisa dibantu?')->responAsText();
 }
-// respon image
-if ($message == 'gambar') {
-    $respon = $responFormatter->line('ini caption gambarnya')->responAsImage('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png');
+// respon media (support imgage,audio,document and video)
+if ($message == 'media') {
+    $respon = $responFormatter->line('caption for you {name}')->responAsMedia('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png');
+}
+
+if($message = 'media2') {
+    $respon = $responFormatter->line('This is a document for you {name}')
+        ->responAsMedia('https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'document', 'dummy.pdf');
 }
 // respon button
 if ($message == 'button') {
@@ -83,11 +88,7 @@ if ($message == 'list') {
         ->responAsList();
 }
 
-// PDF
-if ($message == 'DOCUMENT') {
-    $respon = $responFormatter->line('DOCUMENT RESPON')
-        ->responAsDocument('url/to/yourdocument', 'document.extension', 'extension (pdf,doc,docx,xls,xlsx,ppt,pptx,zipped)');
-}
+
 
 // save respon to file
 if ($respon) {

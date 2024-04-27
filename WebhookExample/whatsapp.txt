@@ -1,0 +1,57 @@
+[2024-04-27 03:11:06]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:15:57]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:17:56]
+{"message":"","bufferImage":null,"from":"120363048317572270","participant":"6288291613452@c.us"}
+
+[2024-04-27 03:18:35]
+{"message":"yang nisn nya bermasalah ke kantin","bufferImage":null,"from":"120363048317572270","participant":"6288291613452@c.us"}
+
+[2024-04-27 03:18:38]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:19:27]
+{"message":"kalo ada dosen nya bisa izin mau perbaikan data ke opratoe","bufferImage":null,"from":"120363048317572270","participant":"6288291613452@c.us"}
+
+[2024-04-27 03:19:33]
+{"message":"","bufferImage":null,"from":"120363048317572270","participant":"6288291613452@c.us"}
+
+[2024-04-27 03:21:01]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:22:01]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:22:44]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:23:42]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:24:22]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:24:24]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:30:01]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:30:19]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:30:53]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:31:13]
+{"message":"button","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:31:47]
+{"message":"list","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:32:53]
+{"message":"template","bufferImage":null,"from":"6282298859671"}
+

@@ -1,0 +1,18 @@
+[2024-04-27 03:36:48]
+{"text":"halo juga\nada yang bisa dibantu?\n","quoted":false}
+
+[2024-04-27 03:36:59]
+{"text":"halo juga {name}\nada yang bisa dibantu?\n","quoted":false}
+
+[2024-04-27 03:37:05]
+{"text":"hi juga\nada yang bisa dibantu?\n","quoted":true}
+
+[2024-04-27 03:37:13]
+{"type":"image","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/6b\/WhatsApp.svg\/512px-WhatsApp.svg.png","filename":null,"caption":"caption for you {name}\n"}
+
+[2024-04-27 03:38:10]
+{"type":"document","url":"https:\/\/www.w3.org\/WAI\/ER\/tests\/xhtml\/testfiles\/resources\/pdf\/dummy.pdf","filename":"dummy.pdf","caption":"This is a document for you {name\n"}
+
+[2024-04-27 03:38:20]
+{"type":"document","url":"https:\/\/www.w3.org\/WAI\/ER\/tests\/xhtml\/testfiles\/resources\/pdf\/dummy.pdf","filename":"dummy.pdf","caption":"This is a document for you {name}\n"}
+

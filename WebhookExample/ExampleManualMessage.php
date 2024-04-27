@@ -11,20 +11,12 @@ class FormatMessage
 
     public static function exampleMedia($quoted = false)
     {
-        // image
-        // ['image' => ['url' => 'url_image'], 'caption' => 'text', 'quoted' => true or false]
-        // video
-        // ['video' => ['url' => 'url_video'], 'caption' => 'text', 'quoted' => true or false]
-        // audio
-        // ['audio' => ['url' => 'url_audio'], 'ptt' => true or false, 'quoted' => true or false, 'fileName' => 'filename.mp3', 'mimetype' => 'audio/mpeg']
-        // pdf
-        // ['document' => ['url' => 'url_pdf'], 'quoted' => true or false, 'fileName' => 'filename.pdf', 'mimetype' => 'application/pdf']
+
         return json_encode([
-            'image' => [
-                'url' =>
-                    'https://png.pngtree.com/element_our/md/20180626/md_5b321c99945a2.jpg',
-            ],
-            'caption' => 'caption',
+            'url' => 'https://png.pngtree.com/element_our/md/20180626/md_5b321c99945a2.jpg',
+            'type' => 'image', // or 'video', 'document', 'audio'
+            'caption' => 'this is media for you {name}',
+            'filename' => 'image.jpg', // optional, if you want to change filename, default is 'media.ext'
             'quoted' => $quoted,
         ]);
     }
@@ -51,9 +43,9 @@ class FormatMessage
         ];
         $message = [
             'text' => 'text',
-            'footer' => 'footer', 
+            'footer' => 'footer',
             'headerType' => 1,
-            'viewOnce' => true, 
+            'viewOnce' => true,
             'buttons' => $buttons,
             'quoted' => $quoted,
         ];
@@ -110,9 +102,9 @@ class FormatMessage
                     'title' => 'List Item 2',
                     'rowId' => 'id3',
                     'description' => '',
-                ], 
+                ],
             ],
-          ];
+        ];
 
         $section2 = [
             'title' => 'Menu List 2',
@@ -126,9 +118,9 @@ class FormatMessage
                     'title' => 'List Item 2',
                     'rowId' => 'id3',
                     'description' => '',
-                ], 
+                ],
             ],
-          ];
+        ];
 
         $listMessage = [
             'text' => 'text',
@@ -142,5 +134,3 @@ class FormatMessage
         return json_encode($listMessage);
     }
 }
-
-?>

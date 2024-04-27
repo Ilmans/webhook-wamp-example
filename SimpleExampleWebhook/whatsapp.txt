@@ -1,0 +1,18 @@
+[2024-04-27 03:36:48]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:36:59]
+{"message":"halo","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:37:05]
+{"message":"hi","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:37:13]
+{"message":"media","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:38:10]
+{"message":"media2","bufferImage":null,"from":"6282298859671"}
+
+[2024-04-27 03:38:20]
+{"message":"media2","bufferImage":null,"from":"6282298859671"}
+
