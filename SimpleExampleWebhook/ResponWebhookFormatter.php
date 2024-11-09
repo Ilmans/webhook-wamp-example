@@ -135,7 +135,8 @@ class ResponWebhookFormater
     public function responAsText()
     {
         return json_encode([
-            'text' => $this->convertLines(), 'quoted' => $this->quoted,
+            'text' => $this->convertLines(),
+            'quoted' => $this->quoted,
         ]);
     }
 
@@ -197,14 +198,35 @@ class ResponWebhookFormater
 
     public function responAsList($title = "List", $nameButton = "Show List")
     {
+        $sections = [];
+        foreach ($this->sectionsList as $section) {
+            $sectionData = [
+                'list' => [
+                    [
+                        'rows' => array_map(function ($row) {
+                            return [
+                                'title' => $row['title'],
+                                'description' => $row['description'] ?? ''
+                            ];
+                        }, $section['rows']),
+                        'title' => $section['title']
+                    ]
+                ],
+                'buttonText' => $nameButton
+            ];
+            $sections[] = $sectionData;
+        }
+
         $listMessage = [
             'text' => $this->convertLines(),
             'footer' => $this->footer,
-            'title' => $title,
-
+            'sections' => $sections,
             'buttonText' => $nameButton,
-            'sections' => $this->sectionsList,
         ];
+        if($this->image){
+            $listMessage['image'] = ['url' => $this->image['url']];
+            $listMessage['caption'] = $this->convertLines();
+        }
 
         return json_encode($listMessage);
     }

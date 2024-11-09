@@ -28,9 +28,7 @@ if ($message == 'button') {
 }
 
 // for template message
-if ($message == 'template') {
-    $respon = FormatMessage::exampleTemplate(true);
-}
+
 
 // for list message
 if ($message == 'list') {

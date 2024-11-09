@@ -56,80 +56,43 @@ class FormatMessage
         return json_encode($message);
     }
 
-    public static function exampleTemplate($quoted = false)
+
+
+    public static function exampleList($quoted = false, $url = null)
     {
-        $templateButtons = [
-            [
-                'index' => 1,
-                'urlButton' => [
-                    'displayText' => 'Visit our website',
-                    'url' => 'https://www.example.com',
-                ],
-            ],
-            [
-                'index' => 2,
-                'callButton' => [
-                    'displayText' => 'Call us now',
-                    'phoneNumber' => '+1234567890',
-                ],
-            ],
-        ];
 
-        $message = [
-            'text' => 'text',
-            'footer' => 'footer', // optional
-            'templateButtons' => $templateButtons,
-            'viewOnce' => true,
-            'quoted' => $quoted, // optional
-        ];
-
-        // if wnat to add image you can add like this to $message
-        // $message['image'] = ['url' => 'url_image']; and change text to caption
-        return json_encode($message);
-    }
-
-    public static function exampleList($quoted = false)
-    {
         $section = [
-            'title' => 'Menu List',
-            'rows' => [
+            'list' => [
                 [
-                    'title' => 'List Item 1',
-                    'rowId' => 'id2',
-                    'description' => '',
-                ],
-                [
-                    'title' => 'List Item 2',
-                    'rowId' => 'id3',
-                    'description' => '',
-                ],
-            ],
-        ];
-
-        $section2 = [
-            'title' => 'Menu List 2',
-            'rows' => [
-                [
-                    'title' => 'List Item 1',
-                    'rowId' => 'id2',
-                    'description' => '',
-                ],
-                [
-                    'title' => 'List Item 2',
-                    'rowId' => 'id3',
-                    'description' => '',
+                    'rows' => [
+                        [
+                            'title' => 'asdf',
+                            'description' => '--',
+                        ],
+                        [
+                            'title' => 'asdf',
+                            'description' => '--',
+                        ],
+                    ],
+                    'title' => 'asdf',
                 ],
             ],
+            'buttonText' => 'asdf',
         ];
 
         $listMessage = [
-            'text' => 'text',
-            'footer' => 'footer',
-            'title' => 'name of list',
-            'viewOnce' => true,
-            'buttonText' => 'button of list',
-            'sections' => [$section, $section2],
+            'text' => 'asdfasf',
+            'footer' => 'asdf',
+            'sections' => [$section],
+            'buttonText' => 'asdf',
         ];
+
+        if ($url) {
+            $listMessage['image'] = $url;
+            $listMessage['caption'] = 'caption';
+        }
+
+
 
         return json_encode($listMessage);
     }
