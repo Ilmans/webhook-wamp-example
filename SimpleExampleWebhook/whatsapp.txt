@@ -130,3 +130,69 @@
 [2025-05-08 11:36:22]
 {"device":"6281287137725","message":"list","media":null,"from":"6282298859671","name":"M Pedia"}
 
+[2025-05-08 11:38:02]
+{"device":"6281287137725","message":"","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:38:36]
+{"device":"6281287137725","message":"","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 11:38:38]
+{"device":"6281287137725","message":"","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:40:05]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/ec6zw04p6f23ewovgjijvv*marvels spider-man game of the year edition*(lengkap all dlc)*ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 11:53:02]
+{"device":"6281287137725","message":"*jauss menggila derr parahhhh sih*\ud83e\udd75\ud83e\udd75\ud83e\udd75*perkalian gedenya turun mulu gampang konek pula* \ud83e\udd76\ud83e\udd76 *bonus welcomenya 100%* \ud83e\udd11        \u2b07\ufe0flink eksklusif\u2b07\ufe0f\ud83d\udccc rdrect.cc\/jhsae\ud83d\udccc rdrect.cc\/qpedultr\ud83d\udccc rdrect.cc\/0n3x4\ud83d\udccc rdrect.cc\/315oh\ud83d\udccc rdrect.cc\/8gop4s\ud83d\udd25\ud835\ude40\ud835\ude49\ud835\ude45\ud835\ude4a\ud835\ude54 \ud835\ude4f\ud835\ude43\ud835\ude40 \ud835\ude42\ud835\ude3c\ud835\ude48\ud835\ude40\ud83d\udd25","media":null,"from":"120363294632637718","name":""}
+
+[2025-05-08 12:06:09]
+{"device":"6281287137725","message":"yuk butuh 1 orang secondary guys","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:06:25]
+{"device":"6281287137725","message":"mau min, ps4 yaa","media":null,"from":"120363362464393287","name":"Aditya Saputra","participant":"6285890552220@c.us"}
+
+[2025-05-08 12:06:43]
+{"device":"6281287137725","message":"ya gan betul secondary kosong","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:07:32]
+{"device":"6281287137725","message":"done min","media":null,"from":"120363362464393287","name":"Aditya Saputra","participant":"6285890552220@c.us"}
+
+[2025-05-08 12:10:02]
+{"device":"6281287137725","message":"butuh 2 orang lagi","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:11:54]
+{"device":"6281287137725","message":"yuk gasreadyprimary ps4&ps5secondary ps5! butuh 3 orang lagi !","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:13:41]
+{"device":"6281287137725","message":"https:\/\/vt.tiktok.com\/zshsat1sk\/","media":null,"from":"120363409158123610","name":""}
+
+[2025-05-08 12:14:59]
+{"device":"6281287137725","message":"","media":null,"from":"120363362464393287","name":"","participant":""}
+
+[2025-05-08 12:15:21]
+{"device":"6281287137725","message":"@6282325529171 selamat datang di grupready patungan game diskon maupun non diskon","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:53]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/hn6amshbnkf5o4jautg9e3*gran turismo 7**25th anniversary edition**ps4 & ps5**primary*280rb*secondary*170rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:53]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/dxg4mx2xhkd6zbskvtgk5r*bloodborne**ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:53]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/in6p6q7u6cbhxbrtxdlyqn*overcooked 1&2 bundle**ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:54]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/dy43uqohrqw2umgvy1tsgh*the elder scroll: v skyrim aniverysary edition**ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:55]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/in6p6q7u6cbhxbrtxdlyqn*overcooked 1&2 bundle**ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:55]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/k5ozekxz1tygksgkntacfb*sd gundam battle alieance deluxe edition**ps4 & ps5**primary*85rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:56]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/desceztfnsg2qnzdzfbm4g*naruto x boruto ultimate ninja storm connections**deluxe edition**ps4 & ps5**primary*250rb*secondary*120rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 12:16:57]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/ec6zw04p6f23ewovgjijvv*marvels spider-man game of the year edition*(lengkap all dlc)*ps4 & ps5**primary*90rb*secondary*50rb","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
