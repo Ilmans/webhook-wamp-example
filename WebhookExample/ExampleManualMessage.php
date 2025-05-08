@@ -26,28 +26,27 @@ class FormatMessage
         // button
         $buttons = [
             [
-                'buttonId' => 'id1',
-                'buttonText' => ['displayText' => 'Button 1'],
-                'type' => 1,
+                'type' => 'reply',
+                'displayText' => "yaa",
+
             ],
             [
-                'buttonId' => 'id2',
-                'buttonText' => ['displayText' => 'Button 2'],
-                'type' => 1,
+                'type' => 'call',
+                'displayText' => "call me",
+                'phoneNumber' => 6282298859671,
             ],
             [
-                'buttonId' => 'id3',
-                'buttonText' => ['displayText' => 'Button 3'],
-                'type' => 1,
+                'type' => 'url',
+                'displayText' => "visit me",
+                'url' => "https://google.com",
             ],
         ];
         $message = [
             'text' => 'text',
             'footer' => 'footer',
             'headerType' => 1,
-            'viewOnce' => true,
+
             'buttons' => $buttons,
-            
             'quoted' => $quoted,
         ];
 
@@ -59,7 +58,7 @@ class FormatMessage
 
 
 
-    public static function exampleList($quoted = false, $url = null)
+    public static function exampleList($quoted = false, $url = 'https://png.pngtree.com/element_our/md/20180626/md_5b321c99945a2.jpg')
     {
 
         $section = [
