@@ -103,3 +103,30 @@
 [2024-04-27 06:14:11]
 {"message":"muncul bosquh","bufferImage":null,"from":"6285770313479"}
 
+[2025-05-08 11:31:10]
+{"device":"6281287137725","message":"hi","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:31:11]
+{"device":"6281287137725","message":"halo","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:31:15]
+{"device":"6281287137725","message":"media","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:31:21]
+{"device":"6281287137725","message":"media2","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:31:26]
+{"device":"6281287137725","message":"button","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:35:50]
+{"device":"6281287137725","message":"https:\/\/chat.whatsapp.com\/eztgnsgy8smi6jgxapg0xk*motogp 25*yuk gas butuh 2 orang lagi","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 11:36:01]
+{"device":"6281287137725","message":"ready primary ps5 dan secondary ps4","media":null,"from":"120363362464393287","name":"Alfalfa Game Store","participant":"6282189734997@c.us"}
+
+[2025-05-08 11:36:09]
+{"device":"6281287137725","message":"button","media":null,"from":"6282298859671","name":"M Pedia"}
+
+[2025-05-08 11:36:22]
+{"device":"6281287137725","message":"list","media":null,"from":"6282298859671","name":"M Pedia"}
+

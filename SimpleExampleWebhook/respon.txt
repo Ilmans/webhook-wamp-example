@@ -46,3 +46,24 @@
 [2024-04-27 06:02:11]
 {"text":"ini isi pesannya\n*tebal*\n","footer":"ini footer","title":"List","buttonText":"Show List","sections":[{"title":"Menu pertama","rows":[{"title":"List Item 1","rowId":"id2","description":""},{"title":"List Item 2","rowId":"id3","description":""}]},{"title":"Menu kedua","rows":[{"title":"List Item 1","rowId":"id2","description":""},{"title":"List Item 2","rowId":"id3","description":""}]}]}
 
+[2025-05-08 11:31:10]
+{"text":"hi juga\nada yang bisa dibantu?\n","quoted":true}
+
+[2025-05-08 11:31:11]
+{"text":"halo juga {name}\nada yang bisa dibantu?\n","quoted":false}
+
+[2025-05-08 11:31:15]
+{"type":"image","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/6b\/WhatsApp.svg\/512px-WhatsApp.svg.png","filename":null,"caption":"caption for you {name}\n"}
+
+[2025-05-08 11:31:21]
+{"type":"document","url":"https:\/\/www.w3.org\/WAI\/ER\/tests\/xhtml\/testfiles\/resources\/pdf\/dummy.pdf","filename":"dummy.pdf","caption":"This is a document for you {name}\n"}
+
+[2025-05-08 11:31:26]
+{"footer":"ini footer","headerType":1,"viewOnce":true,"buttons":[{"buttonId":"id1","buttonText":{"displayText":"Button pertama"},"type":1},{"buttonId":"id2","buttonText":{"displayText":"Button kedua"},"type":1},{"buttonId":"id3","buttonText":{"displayText":"Button ketiga"},"type":1}],"quoted":false,"text":"ini isi pesannya\n*tebal*\n"}
+
+[2025-05-08 11:36:09]
+{"footer":"ini footer","headerType":1,"viewOnce":true,"buttons":[{"type":"reply","displayText":"just reply"},{"type":"call","displayText":"Call me","phoneNumber":"6282298859671"},{"type":"copy","displayText":"copy me","copyText":"xxx"},{"type":"url","displayText":"visit me","url":"https:\/\/google.com"}],"quoted":false,"image":{"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/6b\/WhatsApp.svg\/512px-WhatsApp.svg.png"},"caption":"ini isi pesannya\n*tebal*\n"}
+
+[2025-05-08 11:36:22]
+{"text":"ini isi pesannya\n*tebal*\n","footer":"ini footer","sections":[{"list":[{"rows":[{"title":"List Item 1","description":""},{"title":"List Item 2","description":""}],"title":"Menu pertama"}],"buttonText":"Show List"},{"list":[{"rows":[{"title":"List Item 1","description":""},{"title":"List Item 2","description":""}],"title":"Menu kedua"}],"buttonText":"Show List"}],"buttonText":"Show List"}
+

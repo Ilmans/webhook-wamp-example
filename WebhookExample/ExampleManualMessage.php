@@ -40,6 +40,11 @@ class FormatMessage
                 'displayText' => "visit me",
                 'url' => "https://google.com",
             ],
+            [
+                'type' => 'copy',
+                'displayText' => "copy me",
+                'copyText' => "https://google.com",
+            ],
         ];
         $message = [
             'text' => 'text',

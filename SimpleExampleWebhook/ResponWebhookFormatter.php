@@ -64,13 +64,35 @@ class ResponWebhookFormater
     /**
      * @param string $text button
      * to add button to your message, maximal using this function 3 times
+     * type = call, reply,url,copy
      */
-    public function addButton($text)
+    public function addButton($text, $type, $value = null)
     {
-        $indexbutton = count($this->buttons) + 1;
-        $this->buttons[] = ['buttonId' => 'id'  . $indexbutton, 'buttonText' => ['displayText' => $text], 'type' => 1];
+        $button = [
+            'type' => $type,
+            'displayText' => $text,
+        ];
+
+        switch ($type) {
+            case 'call':
+                $button['phoneNumber'] = $value;
+                break;
+            case 'url':
+                $button['url'] = $value;
+                break;
+            case 'copy':
+                $button['copyText'] = $value;
+                break;
+            case 'reply':
+            default:
+                // Tidak butuh value tambahan untuk reply
+                break;
+        }
+
+        $this->buttons[] = $button;
         return $this;
     }
+
 
     /**
      * @param string $name name template button
@@ -223,7 +245,7 @@ class ResponWebhookFormater
             'sections' => $sections,
             'buttonText' => $nameButton,
         ];
-        if($this->image){
+        if ($this->image) {
             $listMessage['image'] = ['url' => $this->image['url']];
             $listMessage['caption'] = $this->convertLines();
         }

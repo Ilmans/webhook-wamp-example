@@ -37,37 +37,23 @@ if ($message == 'media') {
     $respon = $responFormatter->line('caption for you {name}')->responAsMedia('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png');
 }
 
-if($message == 'media2') {
+if ($message == 'media2') {
     $respon = $responFormatter->line('This is a document for you {name}')
         ->responAsMedia('https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'document', 'dummy.pdf');
 }
 // respon button
 if ($message == 'button') {
     $respon = $responFormatter->line('ini isi pesannya')->bold("tebal")
-        ->addButton("Button pertama")
-        ->addButton("Button kedua")
-        ->addButton("Button ketiga")
-        ->footer('ini footer')
-        ->responAsButton();
-}
-// respon button with image
-if ($message == 'button image') {
-    $respon = $responFormatter->line('ini isi pesannya')->bold("tebal")
-        ->addButton("Button pertama")
-        ->footer('ini footer')
+        ->addButton("just reply", 'reply', 'just reply')
+        ->addButton("Call me", 'call', '6282298859671')
+        ->addButton("copy me", 'copy', 'xxx')
+        ->addButton('visit me', 'url', 'https://google.com')
         ->image('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png')
+        ->footer('ini footer')
         ->responAsButton();
 }
 
-// respon template button
-// you can also send image .. just add ->image('url_image') before ->responAsTemplateButton()
-if ($message == 'template button') {
-    $respon = $responFormatter->line('ini isi pesannya')->bold("tebal")
-        ->addTemplateButton("Button pertama (kunjungi url ketika klik)", "https://google.com")
-        ->addTemplateButton("Button kedua (panggilan telepon ketika klik)", "6282298859671", "call")
-        ->footer('ini footer')
-        ->responAsTemplateButton();
-}
+
 
 // respon list message
 if ($message == 'list') {
@@ -85,6 +71,7 @@ if ($message == 'list') {
                 ['title' => 'List Item 2', 'rowId' => 'id3', 'description' => ''],
             ]
         )->footer('ini footer')
+        ->image('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png')
         ->responAsList();
 }
 
