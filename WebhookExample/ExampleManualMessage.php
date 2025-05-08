@@ -47,11 +47,12 @@ class FormatMessage
             'headerType' => 1,
             'viewOnce' => true,
             'buttons' => $buttons,
+            
             'quoted' => $quoted,
         ];
 
         // if wnat to add image you can add like this to $message
-        // $message['image'] = ['url' => 'url_image']; and change text to caption
+        $message['image'] = ['url' => 'https://png.pngtree.com/element_our/md/20180626/md_5b321c99945a2.jpg']; //and change text to caption
 
         return json_encode($message);
     }

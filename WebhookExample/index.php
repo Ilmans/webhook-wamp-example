@@ -9,7 +9,7 @@ if (!$data) {
 file_put_contents('whatsapp.txt', '[' . date('Y-m-d H:i:s') . "]\n" . json_encode($data) . "\n\n", FILE_APPEND);
 $message = strtolower($data['message']);
 $from = strtolower($data['from']);
-$bufferimage = isset($data['bufferImage']) ? $data['bufferImage'] : null;
+$media = isset($data['media']);
 $respon = false;
 
 // for text message
@@ -36,15 +36,13 @@ if ($message == 'list') {
 }
 
 // get image
-if ($bufferimage) {
-    $base64str = 'data:image/png;base64,' . $bufferimage;
-    list(, $base64str) = explode(';', $base64str);
-    list(, $base64str) = explode(',', $base64str);
-    $imagedata = base64_decode($base64str);
-    $filename = 'images/' . time() . '.png';
-    $file = file_put_contents($filename, $imagedata);
-    fwrite($file, $imagedata);
-    fclose($file);
+if ($media && $media !== null) {
+    $media = $data['media'];
+    $streamData = $media['stream']['data'];
+    $binaryData = pack('C*', ...$streamData);
+    $fileName = $media['fileName'];
+    $tempPath = 'images/' . $fileName;
+    file_put_contents($tempPath, $binaryData);
 }
 
 
